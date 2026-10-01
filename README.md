@@ -15,13 +15,13 @@ The assessment focused on identifying observable security weaknesses and documen
 
 **Assessment Type:** Passive / Read-Only Security Assessment
 
----
+
 
 ## Objective
 
 To identify and document observable security weaknesses in the target website, review its publicly exposed security configuration, and provide practical security observations and recommendations.
 
----
+
 
 ## Scope
 
@@ -35,7 +35,7 @@ The assessment covered:
 - Basic network exposure
 - Observable server and technology information
 
----
+
 
 ## Methodology
 
@@ -51,7 +51,7 @@ The assessment followed a non-intrusive approach:
 
 No exploitation or destructive testing was performed.
 
----
+
 
 ## Tools Used
 
@@ -61,7 +61,7 @@ No exploitation or destructive testing was performed.
 - **Browser Developer Tools** – Cookies, headers, and browser-side security observations
 - **OWASP ZAP** – Security assessment tool considered within the passive/read-only methodology
 
----
+
 
 ## Evidence
 
@@ -76,7 +76,7 @@ Evidence includes observations related to:
 - TLS/SSL certificate information
 - Browser Developer Tools observations
 
----
+
 
 ## Report
 
@@ -84,7 +84,7 @@ The complete vulnerability assessment report is available here:
 
 **[Vulnerability Assessment Report](./Vulnerability_Assessment_Report.pdf)**
 
----
+
 
 ## Ethical Testing Disclaimer
 
