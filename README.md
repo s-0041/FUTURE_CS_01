@@ -7,7 +7,7 @@ A passive, read-only security assessment was conducted against the publicly acce
 
 The assessment focused on identifying observable security weaknesses and documenting security-related configurations without performing intrusive or destructive testing.
 
----
+
 
 ## Website Tested
 
