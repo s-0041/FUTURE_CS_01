@@ -3,9 +3,9 @@
 
 ## Vulnerability Assessment of a Public Website
 
-A passive, read-only security assessment was conducted against the publicly accessible website **https://www.castorama.fr/** as part of the Future Interns Cyber Security Task 1.
+This project presents a passive, read-only security assessment of the publicly accessible **Castorama website** conducted as part of **Future Interns – Cyber Security Task 1**.
 
-The assessment focused on identifying observable security weaknesses and documenting security-related configurations without performing intrusive or destructive testing.
+The assessment focused on observing publicly accessible security configurations and identifying potential security weaknesses without performing intrusive or destructive testing.
 
 
 
@@ -19,35 +19,37 @@ The assessment focused on identifying observable security weaknesses and documen
 
 ## Objective
 
-To identify and document observable security weaknesses in the target website, review its publicly exposed security configuration, and provide practical security observations and recommendations.
+The objective of this assessment was to review the publicly observable security posture of the website, identify relevant security observations, and document them with supporting evidence and practical recommendations.
 
 
 
 ## Scope
 
-The assessment covered:
+The assessment covered publicly observable aspects of the website, including:
 
-- Publicly accessible website pages
-- HTTP/HTTPS services
+- Publicly accessible web pages
+- HTTP/HTTPS communication
 - HTTP response and security headers
 - Cookie security attributes
-- TLS/SSL certificate configuration
-- Basic network exposure
+- TLS/SSL configuration
+- Basic network and service exposure
 - Observable server and technology information
-
 
 
 ## Methodology
 
-The assessment followed a non-intrusive approach:
+The assessment was performed using a non-intrusive, read-only approach.
 
-1. Reviewed publicly accessible website behavior.
-2. Examined HTTP and HTTPS responses.
-3. Inspected response and security headers.
-4. Reviewed cookie attributes and flags.
-5. Checked TLS/SSL certificate details.
-6. Performed basic network exposure checks.
-7. Documented observations using screenshots and tool outputs.
+The methodology included:
+
+1. Reviewing publicly accessible pages and website behavior.
+2. Inspecting HTTP/HTTPS communication and response information.
+3. Examining security-related response headers.
+4. Reviewing cookies and their security attributes.
+5. Observing TLS/SSL certificate information.
+6. Performing basic network and service exposure checks.
+7. Recording relevant observations through screenshots and tool outputs.
+8. Documenting security observations and recommended remediation measures.
 
 No exploitation or destructive testing was performed.
 
@@ -55,41 +57,37 @@ No exploitation or destructive testing was performed.
 
 ## Tools Used
 
-- **Nmap** – Basic network and service exposure checks
-- **cURL** – HTTP/HTTPS response and security-header inspection
-- **OpenSSL** – TLS/SSL certificate inspection
-- **Browser Developer Tools** – Cookies, headers, and browser-side security observations
-- **OWASP ZAP** – Security assessment tool considered within the passive/read-only methodology
+- **Nmap** – Basic network and service exposure analysis
+- **cURL** – HTTP/HTTPS response and header inspection
+- **OpenSSL** – TLS/SSL certificate and configuration inspection
+- **Browser Developer Tools** – Headers, cookies, and browser-side security observations
+- **OWASP ZAP** – Web security assessment and passive analysis
 
 
 
 ## Evidence
 
-The `evidence/` directory contains supporting screenshots and tool outputs collected during the assessment.
+The `evidence/` directory contains the supporting screenshots and tool outputs collected during the assessment.
 
-Evidence includes observations related to:
-
-- Network/service exposure
-- HTTP/HTTPS responses
-- Security headers
-- Cookie attributes
-- TLS/SSL certificate information
-- Browser Developer Tools observations
+The evidence is provided to support the observations documented in the vulnerability assessment report.
 
 
 
-## Report
+## Assessment Report
 
-The complete vulnerability assessment report is available here:
+The complete vulnerability assessment report is provided in:
 
-**[Vulnerability Assessment Report](./Vulnerability_Assessment_Report.pdf)**
+**`Vulnerability_Assessment_Report.pdf`**
+
+The report contains the assessment overview, scope and methodology, security observations, risk information, supporting evidence, and recommended remediation measures.
 
 
 
 ## Ethical Testing Disclaimer
 
-This assessment was conducted using a passive and read-only approach. No exploitation, authentication bypass, brute-force attacks, denial-of-service testing, or destructive activities were performed.
+This assessment was conducted as a passive and read-only security review of a publicly accessible website.
+
+No exploitation, authentication bypass, brute-force attacks, denial-of-service testing, or destructive activities were performed.
 
 The assessment was limited to publicly observable information and security configurations.
-
 
